@@ -7,7 +7,7 @@ end
 
 helpers do
   def username
-    session[:identity] ? session[:identity] : 'Hi stranger'
+    session[:identity] ? session[:identity] : 'Jelou stranger'
   end
 end
 
